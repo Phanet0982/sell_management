@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    padding: 20px;
+    background: #ecf0f1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    background: green;
+    color: white;
+    text-decoration: none;
+}
+
+.edit {
+    color: blue;
+}
+
+.delete {
+    color: red;
+}
